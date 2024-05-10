@@ -116,11 +116,6 @@ button:hover {
 #equalsto-btn:hover {
   background-color: #be6902;
 }
-@media (max-width: 999.99px) {
-  table {
-    width: 50vw;
-  }
-}
 
 @media (max-width: 999.99px) {
   table {
@@ -128,9 +123,9 @@ button:hover {
   }
 }
 
-@media (max-width: 427.99px) {
+@media (max-width: 759.99px) {
   table {
     width: 90vw;
-    margin: 48px auto;
+    margin: 3rem auto;
   }
 }
