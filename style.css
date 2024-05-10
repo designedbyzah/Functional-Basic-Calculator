@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: DS-Digital;
-  src: url(/Fonts/ds_digital/DS-DIGI.TTF);
+  src: url(Fonts/ds_digital/DS-DIGI.TTF);
 }
 
 /* Styling for overall container */
@@ -56,7 +56,7 @@ h1 {
 /* Styling for table structure and container*/
 
 .calculator {
-  width: 28%;
+  width: 30%;
 }
 
 table {
@@ -115,4 +115,22 @@ button:hover {
 }
 #equalsto-btn:hover {
   background-color: #be6902;
+}
+@media (max-width: 999.99px) {
+  table {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 999.99px) {
+  table {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 427.99px) {
+  table {
+    width: 90vw;
+    margin: 48px auto;
+  }
 }
